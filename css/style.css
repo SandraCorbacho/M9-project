@@ -1,4 +1,4 @@
-.padding-std{
+  .padding-std{
     padding: 0px 100px
   }
   body{
@@ -6,6 +6,7 @@
     padding: 0px;
     box-sizing: border-box;
   }
+ 
   header{
       margin-bottom:100px;
       background-image: url('../img/header.jpg');
@@ -13,6 +14,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;
+      overflow: hidden;
   }
   .container-filter{
       position: absolute;
@@ -47,7 +49,7 @@
       width: 27%;
       position: absolute;
     left: -220px;
-    top: 265px;
+    top: 200px;
 
   }
   header .container-one img{
@@ -57,13 +59,30 @@
      
       transform: scaleY(-1);
       transform: rotate(180deg);
-      position: ;
+      
+  }
+  header .container-title{
+      width: 600px;
+      position: relative;
+    top: 260px;
+    left: 300px;
+  }
+  section{
+      position: relative;
   }
   .btn-std{
-      color:white;
-      background-color: #FCB72A;
-      padding: 20px;
-      max-width: 200px;
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: bolder;
+    background-color: #FCB72A;
+    border: none;
+    width: 220px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    align-self: left;
+    font-size: 17px;
   }
   header .container-two p{
       color: white;
@@ -74,23 +93,30 @@
   }
   h1{
       font-family: 'Ubuntu', sans-serif;
+      font-size: 40px;
   }
   h2{
       font-family: 'Ubuntu', sans-serif;
+      font-size: 43px;
   }
   p{
       font-family: 'Roboto', sans-serif;
+      font-size: 20px;
   }
   nav{
-      display:flex;
-      flex-direction:row;
-      height: 120px;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    justify-content: space-between;
+    width: 73%;
+    text-align: center;
+    margin: auto;
   }
   .navright{
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      width: 60%;
+      width: 40%;
   }
   .navright h2{
       color: #505F76;
@@ -101,6 +127,19 @@
       justify-content: center;
       align-items: center;
   }
+  .container-circle{
+      display: flex;
+      flex-direction: row;
+      width: 400px;
+      position: absolute;
+      right: -53px;
+  }
+  .circle-decoration-white{
+      width: 150px;
+  }
+  .circle-decoration-white img{
+      width: 100%;
+  }
   .navleft button{
       color: white;
       text-align: center;
@@ -108,11 +147,12 @@
       font-style: bolder;
       background-color: #FCB72A;
       border: none;
-      width: 130px;
-      padding-top: 5%;
-      padding-bottom: 5%;
+      width: 220px;
+      padding-top: 15px;
+      padding-bottom: 15px;
       letter-spacing: 1px;
       align-self: left;
+      font-size: 17px;
   }
   .links{
       color: #4F5D77;
@@ -131,7 +171,7 @@
       justify-content:space-around;
       position:absolute;
       left:0px;
-      top: 100px;
+      top: -70px;
       
   }
   .container-one .icon{
@@ -146,7 +186,8 @@
       align-items:center;
       margin-bottom:200px;
   }
-  .container-two{
+  section .container-two{
       display:flex;
       justify-content:space-around;
+      margin-top: 200px;
   }
