@@ -9,96 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
-    
-    <style>
-        .padding-std{
-          padding: 0px 100px
-        }
-        header{
-            margin-bottom:100px;
-            background-color: 
-        }
-        h1{
-            font-family: 'Ubuntu', sans-serif;
-        }
-        h2{
-            font-family: 'Ubuntu', sans-serif;
-        }
-        p{
-            font-family: 'Roboto', sans-serif;
-        }
-        nav{
-            display:flex;
-            flex-direction:row;
-        }
-        .navright{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            width: 60%;
-        }
-        .navright h2{
-            color: #505F76;
-        }
-        .navleft{
-            width: 40%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .navleft button{
-            color: white;
-            text-align: center;
-            font-family: 'Ubuntu', sans-serif;
-            font-style: bolder;
-            background-color: #FCB72A;
-            border: none;
-            width: 130px;
-            padding-top: 5%;
-            padding-bottom: 5%;
-            letter-spacing: 1px;
-            align-self: left;
-        }
-        .links{
-            color: #4F5D77;
-            font-size: small;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        
-        .container-one{
-            border:5px solid #E5ECF4;
-            height:0px;
-            width:80%;
-            display:flex;
-            justify-content:space-around;
-            position:absolute;
-            left:0px;
-            top: 100px;
-            
-        }
-        .container-one .icon{
-            width:100px;
-            height:100px;
-            background-color: #FCB72A;
-            clip-path: circle(50%);
-            position:relative;
-            top:-50px;
-            display:flex;
-            justify-content:flex-end;
-            align-items:center;
-            margin-bottom:200px;
-        }
-        .container-two{
-            display:flex;
-            justify-content:space-around;
-        }
-    </style>  
+    <link rel="stylesheet" href="css/style.css">  
   </head>
   <body>
-  <header>
+ 
     <nav class='padding-std'>
         <div class="navright">
           <div>
@@ -118,7 +32,23 @@
           <button type="button">Get Scooting</button>
         </div>
       </nav>
-        
+      <header>
+        <div class="container-filter"></div>
+        <div class="container-title">
+          <h1>Compartir scooter de forma sencilla</h1>
+        </div>
+        <div class="container-secondary">
+          <div class="container-one">
+            <img src="img/icons/flecha.png" alt="">
+          </div>
+          <div class="container-two">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro omnis enim pariatur! Repellendus provident fugit cupiditate nostrum. Veniam ipsam sapiente nam molestiae? Velit quos reprehenderit ab odit aliquid aliquam!</p>
+              <button class="btn-std">Get Scotting</button>
+          </div>
+          <div class="container-three">
+            <img src="img/icons/flecha.png" alt="">
+          </div>
+        </div>
       </header>
       <section>
           <article class='container-one'>
