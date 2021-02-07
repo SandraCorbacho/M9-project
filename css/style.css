@@ -1,5 +1,5 @@
   .padding-std{
-    padding: 0px 100px
+    padding: 0px 200px
   }
   body{
     margin: 0px;
@@ -204,3 +204,80 @@
     color: #bcbfc5;
     line-height: 30px;
   }
+  .container-image-left{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      position: relative;
+      overflow: hidden;
+  }
+  .container-image-left .container-text,.container-image-right .container-text{
+      width: 40%;
+  }
+  .container-image-left .container-text .container-two, .container-image-right .container-text .container-two{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 60%;
+    
+  }
+  .container-image-left .container-image-one{
+    width: 37%;
+    clip-path: circle(50%);
+    min-height: 550px;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    left: -100px;
+  }
+  .container-image-left .container-image-two{
+    width: 37%;
+    clip-path: circle(50%);
+    min-height: 550px;
+    background-image: url(../img/img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: -80px;
+  }
+  .container-image-right .container-image:first-of-type{
+    width: 37%;
+    clip-path: circle(50%);
+    min-height: 550px;
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 35px;
+  }
+  .container-image-left .container-image img{
+    width: 100%;
+}
+.container-image-left .container-flecha{
+    position: absolute;
+    right: -380px;
+    transform: rotate(180deg);
+    top: 330px;
+}
+.container-image-left .container-flecha img{
+    transform: scaleY(-1);
+    width: 100%;
+}
+.container-image-right{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative
+}
+
+.container-image-right .container-flecha{
+    position: absolute;
+    left: -320px;
+    top: 20px;
+}
+  
