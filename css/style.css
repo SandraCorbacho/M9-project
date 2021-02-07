@@ -191,6 +191,9 @@
       margin-bottom:200px;
       margin-left: 420px;
   }
+  section h1{
+    color:#4e596a
+  }
   section .container-two{
       display:flex;
       justify-content:space-around;
