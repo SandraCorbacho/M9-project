@@ -14,24 +14,103 @@
   <style>
     footer{
       height:15em;
-      background-color: #4F5D77;
+      background-color: #495466;
       display: flex;
+      flex-direction: column;
+      justify-content: center;
       align-content: center;
     }
-    .footerBackground{
-      z-index: 1;
+   
+    .footerBackground{     
       background-image: url("img/circle.png");
       width: 100%;
       height: 100%;
     }
+    .headFooter{
+      display: flex;
+      align-content: center;
+      justify-content: space-around;
+    }
+    .headFooter h1 {
+      font-size: 2.5em;
+      position: relative;
+      z-index: 1;
+    }
     .footerTittle{
-      z-index: 2;
       color: white;
       letter-spacing: 3px;
-      width: 100%;
+      width: 30%;
       padding-left: 5%;
-      background: transparent;
-      
+      background: transparent;     
+    }
+    .footerNav{
+      background-color: #333A44;
+      display: flex;
+      justify-content: space-evenly;
+      color: honeydew;
+      width: 100%;
+      font-family: 'Ubuntu', sans-serif;
+      position: relative;
+    }
+    .footerApps{
+      width: 40%;
+      height: auto;
+      display: flex;
+      align-content: center;    
+      justify-content: space-evenly;
+      position: relative;
+      z-index: 1;
+    }
+    .footerLeft{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 60%;
+    }
+    .footerRight{
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .circles-bg{
+      display: flex;
+      width: 100%;
+      position:absolute;
+      top: 160%;
+      left: 35%;
+      justify-content: right;    
+    }
+    .circles-bg1{
+      width: 20%;
+      height: 130px;
+      border: 10px solid #586474;
+      border-top-left-radius: 50% 100%;
+	    border-top-right-radius: 50% 100%;
+      margin-right: 2%;
+          
+    }
+    .circles-bg2{
+      width: 20%;
+      height: 130px;
+      border: 10px solid #586474;
+      border-top-left-radius: 50% 100%;
+	    border-top-right-radius: 50% 100%;
+      background-color: #586474;
+    }
+    .footerRight img{
+      width: 25px;
+      height: 25px;
+    }
+    #google{
+      width: 130px;
+      height: auto;
+      align-self: center;
+    }
+    #appStore{
+      width: 150px;
+      height: auto;
+      align-self: center;
     }
   </style>
   <body>
@@ -159,19 +238,38 @@
           </div>
         </article>
     </section>
-    <footer>
-      <div>
-        <div class="footerTittle">
-          <h1>Sign up and</h1>
-          <h1>Scoot off today</h1>
-        </div>
-        <div></div>
-      </div>
-      <div></div>
+    
+    <footer class="padding-std">
+         <div class="headFooter">
+          <div class="footerTittle">
+            <h1>Sign up and Scoot off today</h1>
+          </div>
+          <div class="footerApps">
+            <img id="google" src="img/icons/AppStore.png">
+            <img id="appStore" src="img/icons/googleplay.png">
+          </div>
+        </div>  
+
+        <div class="circles-bg">
+          <div class="circles-bg1"></div>
+            <div class="circles-bg1"></div>
+            <div class="circles-bg2"></div>
+          </div>
     </footer>
-
+    <div class="footerNav">
+      <div class="footerLeft">
+        <h2>scoot</h2>
+        <h5>About</h5>
+        <h5>Location</h5>
+        <h5>Careers</h5>
+      </div>
+      <div class="footerRight">
+        <img src="img/icons/facebook.png">
+        <img src="img/icons/twitter.png">
+        <img src="img/icons/instagram.png">
+      </div>
+    </div>
 <script>
-
 
 </script>
   </body>
