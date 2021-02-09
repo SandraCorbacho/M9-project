@@ -66,7 +66,7 @@
     width: 600px;
     position: relative;
     top: 260px;
-    left: 300px;
+    left: 12%;
   }
   section{
       position: relative;
@@ -190,7 +190,23 @@
       justify-content:flex-end;
       align-items:center;
       margin-bottom:200px;
-      margin-left: 420px;
+      margin-left: 33%;
+  }
+  .container-image-right .container-flecha, .container-image-left .container-flecha{
+    width: 50%;
+  }
+  .container-image-right .container-flecha img, .container-image-left .container-flecha img{
+    width: 100%;
+  }
+  .image-icon-mobile{
+    width:100px;
+    height:100px;
+    background-color: #FCB72A;
+    clip-path: circle(50%);
+    position:relative;
+    top:0px;
+   display: none;
+   
   }
   section h1{
     color:#4e596a
