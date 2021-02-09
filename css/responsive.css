@@ -268,18 +268,23 @@
     .container-image-left .container-flecha, .container-image-right .container-flecha{
         top: 880px;
     }
-    .navright h2{
-        font-size: 13px;
-        padding-top: 40px;
-        padding-right: 3px;
+    .hamburguer{
+       display: flex;
+       top: 20px; 
     }
-    .links p{
-        font-size: 9px;
-        padding: 2px;
+    .navBurguer{
+        display: none;
+        flex-direction: column;
+    }
+    .navright{
+        display: none;
+    }
+    .navleft{
+        padding-left: 200px;
     }
     .navleft button{
-        width: 65px;
-        font-size: 8px;
+        width: 85px;
+        font-size: 8px;      
     }
     #google{
         width: 55px;

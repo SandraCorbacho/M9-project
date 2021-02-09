@@ -111,8 +111,25 @@
       align-self: center;
     }
   </style>
-  <body> 
+  <body>  
+    
     <nav class='padding-std'>
+      <div class="hamburguer" onclick="openMenu()">
+        <div class="line top"></div>
+        <div class="line med"></div>
+        <div class="line bottom"></div>
+      </div>
+      <div class="navBurguer" id="navburguer">
+        <div class="links">
+          <a>Sobre scoot</a>
+        </div>
+        <div class="links">
+          <a>Localizacion</a>
+        </div>
+        <div class="links">
+          <a>Recorridos</a>
+        </div>
+      </div>
         <div class="navright">
           <div>
             <h2>scoot</h2>
@@ -273,6 +290,16 @@
       </div>
     </div>
 <script>
+  var visible = false;
+  function openMenu(){
+    if (visible == false){
+      document.getElementById("navburguer").style.display='flex';
+      visible = true;
+    } else {
+      document.getElementById("navburguer").style.display='none';
+      visible = false;
+    }   
+  }
 
 </script>
   </body>
