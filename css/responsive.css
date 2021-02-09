@@ -13,10 +13,52 @@
         top:20px;
        
     }
-    .padding-std {
+    /* .padding-std {
         padding: 0px 130px;
     }
+} */
+
+    .padding-std{
+        padding: 0px 50px;
+    }
+    footer{
+        height: 7.5em;
+    }
+
+    .headFooter h1 {
+        font-size: 1.5em;
+    }
+
+    #google{
+        width: 95px;
+        height: auto;
+    }
+    #appStore{
+        width: 95px;
+        height: auto;
+    }
+    .circles-bg{
+        display: flex;
+        justify-content: right;
+        position: absolute;
+        left: 50%;
+    }
+    .circles-bg1{
+        width: 15%;
+        height: 95px;   
+        margin-right: 1%;           
+      }
+      .circles-bg2{
+        width: 15%;
+        height: 95px;
+   
+      }
+      .footerLeft h2{
+        font-size: 1.4em;
+      }
 }
+
+
 @media only screen and (max-width: 1000px){
     .container-image-left{
         flex-direction: column;
@@ -33,14 +75,59 @@
     .padding-std{
         padding: 0px 50px;
     }
-
-    footer h1{
-        
+    footer{
+        height: 5.5em;
     }
+
+    .headFooter h1 {
+        font-size: 1em;
+    }
+
+    #google{
+        width: 65px;
+        height: auto;
+    }
+    #appStore{
+        width: 75px;
+        height: auto;
+    }
+    .circles-bg{
+        display: flex;
+        justify-content: right;
+        position: absolute;
+        left: 50%;
+    }
+    .circles-bg1{
+        width: 15%;
+        height: 65px;   
+        margin-right: 1%;           
+      }
+      .circles-bg2{
+        width: 15%;
+        height: 65px;
+   
+      }
+      .footerLeft h2{
+        font-size: 1.4em;
+      }
 }
 
 
 @media only screen and (max-width: 768px){
 
-    
+    footer{
+        height: 4em;
+    }
+    .headFooter h1 {
+        font-size: 0.7em;
+    }
+
+    .circles-bg1{
+        height: 22px;   
+         
+      }
+      .circles-bg2{
+        width: 15%;
+        height: 22px;   
+      }
 }

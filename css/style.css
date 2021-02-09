@@ -1,5 +1,5 @@
   .padding-std{
-    padding: 0px 200px
+    padding: 0px 200px;
   }
   body{
     margin: 0px;
@@ -208,10 +208,12 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
     color: #49515E;
+    
   }
   section .container-two p{
     color: #bcbfc5;
     line-height: 30px;
+    
   }
   .container-image-left{
       display: flex;
@@ -223,6 +225,8 @@
   }
   .container-image-left .container-text,.container-image-right .container-text{
       width: 40%;
+      padding-left: 10%;
+      padding-right: 10%;
   }
   .container-image-left .container-text .container-two, .container-image-right .container-text .container-two{
     display: flex;
