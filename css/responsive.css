@@ -205,12 +205,23 @@
 
 
 @media only screen and (max-width: 768px){
+    .navright h2{
+        font-size: 20px;
+        padding-top: 28px;
+    }
+    .links p{
+        font-size: 12px;
+    }
+    .navleft button{
+        width: 95px;
+        font-size: 9px;
+    }
 
     footer{
         height: 4em;
     }
     .headFooter h1 {
-        font-size: smaller;
+        font-size: 12px;
     }
 
     .circles-bg1{
@@ -257,4 +268,44 @@
     .container-image-left .container-flecha, .container-image-right .container-flecha{
         top: 880px;
     }
+    .navright h2{
+        font-size: 13px;
+        padding-top: 40px;
+        padding-right: 3px;
+    }
+    .links p{
+        font-size: 9px;
+        padding: 2px;
+    }
+    .navleft button{
+        width: 65px;
+        font-size: 8px;
+    }
+    #google{
+        width: 55px;
+        height: auto;
+    }
+    #appStore{
+        width: 65px;
+        height: auto;
+    }
+    
+    .footerLeft h2{
+        font-size: 8px;
+    }
+    .footerLeft h5{
+        font-size: 6px;
+    }
+    .footerRight img{
+        width: 10px;
+        height: auto;
+    }
+    footer{
+        height: 4em;
+    }
+    .headFooter h1 {
+        font-size: 10px;
+    }
+
+   
 }
