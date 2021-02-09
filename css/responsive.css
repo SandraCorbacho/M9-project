@@ -1,5 +1,35 @@
+@media only screen and (max-width: 1500px){
+    nav{
+        width: auto;
+    }
+    .container-image-left .container-image-one, .container-image-right .container-image:first-of-type,.container-image-left .container-image-two{
+        width: 360px;
+        height: 360px;
+        top:110px;
+        min-height: 0px;
+       
+    }
+    .container-image-right .container-image:first-of-type{
+        top:20px;
+       
+    }
+    .padding-std {
+        padding: 0px 130px;
+    }
+}
 @media only screen and (max-width: 1000px){
-
+    .container-image-left{
+        flex-direction: column;
+    }
+    .container-image-left .container-text, .container-image-right .container-text{
+        width: 100%;
+    }
+    .container-image-left .container-text .container-two, .container-image-right .container-text .container-two{
+        margin: auto;
+    }
+    .container-image-left .container-text h1, .container-image-right .container-text h1{
+        text-align: center;
+    }
     .padding-std{
         padding: 0px 50px;
     }
