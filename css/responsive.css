@@ -2,6 +2,9 @@
     nav{
         width: auto;
     }
+    .navleft button{
+        width: 175px;
+    }
     .container-image-left .container-image-one, .container-image-right .container-image:first-of-type,.container-image-left .container-image-two{
         width: 360px;
         height: 360px;
@@ -26,7 +29,14 @@
     }
 
     .headFooter h1 {
-        font-size: 1.5em;
+        font-size: 25px;
+    }
+    .navright h2{
+        font-size: 35px;
+        padding-top: 9px;
+    }
+    .links{
+        font-size: 22px;
     }
 
     #google{
@@ -60,6 +70,19 @@
 
 
 @media only screen and (max-width: 1000px){
+
+    .navright h2{
+        font-size: 25px;
+        padding-top: 21px;
+    }
+    .links p{
+        font-size: 15px;
+    }
+    .navleft button{
+        width: 125px;
+        font-size: 13px;
+    }
+    
     .container-image-left{
         flex-direction: column;
     }
@@ -80,7 +103,7 @@
     }
 
     .headFooter h1 {
-        font-size: 1em;
+        font-size: 14px;
     }
 
     #google{
