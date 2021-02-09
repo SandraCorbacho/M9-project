@@ -235,6 +235,17 @@
     .container-image-left .container-flecha, .container-image-right .container-flecha{
         top: 720px;
     }
+    header .container-title{
+        position: initial;
+        width: 70%;
+        left: 0px;
+        margin: auto;
+
+    }
+    header .container-two{
+        margin-top: -290px;
+    }
+
     
 }
 
